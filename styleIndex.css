@@ -1,0 +1,35 @@
+.navbar-brand {
+        font-size: 35px;
+}
+.navbar-expand-lg {
+    background-color: #2B3467;
+}
+
+.body{
+    background-color: #fff;
+}
+.jumbotron{
+    background-color: #BAD7E9;
+    border-radius: 10px;
+    color: black;
+}
+.card{
+    background-color: #BAD7E9;
+    border-radius: 10px;
+}
+.card-img-top {
+    border-radius: 10px;
+}
+.list-group-item{
+    background-color: #F5E9CF;
+    border: 2px solid #2B3467;
+    padding-bottom: 30px;
+    padding-inline: 50px;
+    text-align:justify;
+}
+.list-group-item:hover{
+    cursor: pointer;
+    background-color: #2B3467;
+    width: auto;
+    height: auto;
+}

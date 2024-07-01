@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- layoutit -->
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- mycss -->
+    <link rel="stylesheet" href="styleIndex.css">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Home SILOKER NF</title>
+</head>
+<body class="body">
+
+<!-- navbar awal-->
+<nav class="navbar navbar-expand-lg navbar-light s" style="background-color: #BAD7E9;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">SILOKERNF</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="index.html"><i class="bi bi-house-door-fill"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="lowonganbaru.html">Lowongan Baru</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="isiloker.html">Isi Loker</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="daftarmitra.html">Daftar Mitra</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="berita.html">Berita</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline" type="submit"><i class="bi bi-search"></i></button>
+      </form>
+      <a class="btn btn-dark btn-outlines ms-2" href="login.html">Login</a>
+    </div>
+  </div>
+</nav>
+<!-- navbar akhir -->
+
+<!-- bagian lowongan awal -->
+<div class="container my-5 shadow-lg bg-white rounded">
+  <div class="row">
+    <div class="col-lg-12 " >
+      <nav aria-label="breadcrumb ">
+        <ol class="breadcrumb justify-content-end mt-4 mr-3">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item " ><a href="daftarmitra.html">Daftar Mitra</a></li>
+          <li class="breadcrumb-item active" aria-current="page" >Daftar Menjadi Mitra</li>
+        </ol>
+      </nav>
+      <h1 class="text-center">Daftar Menjadi Mitra</h1>
+      <form  id="mitraForm" class="mt-4" >
+        <div class="mb-3">
+            <label for="namaMitra" class="form-label">Nama Mitra</label>
+            <input type="text" class="form-control" id="namaMitra" name="namaMitra" required>
+        </div>
+        <div class="mb-3">
+            <label for="logoMitra" class="form-label">Logo Mitra</label>
+            <input type="file" class="form-control-file" id="logoMitra" name="logoMitra" accept="image/*" required>
+        </div>
+        <div class="mb-3">
+            <label for="keteranganMitra" class="form-label">Keterangan</label>
+            <textarea class="form-control" id="keteranganMitra" name="keteranganMitra" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="button" onclick="resetFormManually()" class="btn btn-secondary">Reset</button>
+      </form>
+  </div>
+</div>
+</div>
+
+
+<!-- bagian lowongan akhir -->
+
+<!-- footer awal-->
+<br>
+<footer class=" text-center pb-3" style="background-color: #BAD7E9">
+  <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/raafila_/?hl=id" target="_blank" class="fw-bold">Sausan</a></p>
+</footer>
+<!-- footer akhir -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
